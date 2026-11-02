@@ -1,0 +1,70 @@
+TEELTREGISTER – perceelsfiches volgens Vegaplan
+================================================
+
+Deze map bevat de volledige app. Er is geen internet en geen AI nodig.
+Je gegevens blijven op je eigen toestel en in je eigen Excel-bestand.
+
+Inhoud
+  index.html             de app
+  manifest.webmanifest   nodig om de app op je gsm te installeren
+  sw.js                  zorgt dat de app op je gsm ook zonder internet opent
+  icon-192.png / icon-512.png   pictogram
+
+------------------------------------------------
+1. OP DE PC (Windows)
+------------------------------------------------
+1. Zet de map "Teeltregister" bv. in Documenten (niet in Downloads laten staan).
+2. Klik met de rechtermuisknop op index.html > Openen met > Google Chrome
+   of Microsoft Edge. Gebruik altijd dezelfde browser: de gegevens worden
+   in die browser bewaard.
+3. Tip: sleep index.html naar je bladwijzerbalk of maak een snelkoppeling.
+4. Ga naar het tabblad "Bestand" > "Excel-bestand kiezen" en bewaar het
+   bestand bv. in je OneDrive-map. Vanaf dan werkt de app dat Excel-bestand
+   automatisch bij na elke wijziging.
+   Na het herstarten van de pc vraagt de app één keer toestemming:
+   klik bovenaan op "Klik om verder te bewaren in ...".
+   Staat het bestand open in Excel, dan kan de app er niet in schrijven.
+   Sluit het in Excel; de app probeert vanzelf opnieuw.
+
+------------------------------------------------
+2. OP DE GSM
+------------------------------------------------
+Een gsm kan geen app openen uit een gewone map. Zet de map daarom één keer
+online op een gratis hosting voor websites, bv. Netlify of GitHub Pages
+(je uploadt gewoon deze map). Je gegevens worden NIET online gezet: die
+blijven op je gsm.
+
+Daarna:
+  Android (Chrome): open het adres > menu (drie puntjes) >
+                    "Toevoegen aan startscherm" of "App installeren".
+  iPhone (Safari):  open het adres > deelknop > "Zet op beginscherm".
+
+De app opent dan als een gewone app, ook zonder internet op het veld.
+
+------------------------------------------------
+3. TUSSENTIJDS OPSLAAN
+------------------------------------------------
+- Alles wat je invult, wordt meteen op het toestel bewaard. Je kan de app
+  sluiten en later verder werken.
+- Bewaar daarnaast regelmatig de Excel (tabblad "Bestand"). Die dient als:
+    * je perceelsfiches voor Vegaplan (zelfde opmaak als vroeger)
+    * je back-up
+    * de manier om gegevens tussen pc en gsm uit te wisselen.
+  In de Excel zit een verborgen tabblad met alle gegevens, zodat de app het
+  bestand later volledig terug kan inlezen. Verwijder dat tabblad niet.
+
+------------------------------------------------
+4. PC EN GSM GELIJK HOUDEN
+------------------------------------------------
+- Klaar op de gsm: tabblad "Bestand" > "Excel delen" > bewaar in OneDrive
+  of Google Drive.
+- Op de pc: tabblad "Bestand" > "Excel openen" > kies dat bestand.
+  Nieuwe en gewijzigde registraties worden samengevoegd.
+- Andersom werkt het op dezelfde manier.
+
+Opgelet
+- Wis je de browsergegevens (cookies en sitegegevens) van Chrome/Edge/Safari,
+  dan wis je ook de gegevens van de app op dat toestel. Met je laatste
+  Excel zet je alles terug via "Excel openen".
+- De lijsten met erkende middelen zitten in de app (Fytoweb-export).
+  Toelatingen veranderen; vraag een bijgewerkte versie wanneer nodig.
